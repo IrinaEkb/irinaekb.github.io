@@ -136,15 +136,15 @@
 
     /* ── PROJECTS ─────────────────────────────────────────── */
     .projects-grid { display: flex; flex-direction: column; gap: 28px; }
-    .project-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      overflow: hidden;
-      display: grid;
-      grid-template-columns: 280px 1fr;
-      transition: border-color .2s, transform .2s;
-    }
+   .project-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 320px minmax(0, 1fr);
+  transition: border-color .2s, transform .2s;
+}
     .project-card:hover {
       border-color: rgba(124,106,255,.4);
       transform: translateY(-2px);
